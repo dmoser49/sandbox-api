@@ -1,0 +1,26 @@
+{
+  "name": "sandbox-api",
+  "version": "1.0.0",
+  "description": "Yay practice http",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npm start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarthernandez/sandbox-api.git"
+  },
+  "author": "Justin Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmarthernandez/sandbox-api/issues"
+  },
+  "homepage": "https://github.com/jmarthernandez/sandbox-api#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "express-resource": "^1.0.0",
+    "multer": "^1.0.3"
+  }
+}
